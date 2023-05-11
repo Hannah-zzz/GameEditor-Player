@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ManageGamesActivity"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Button
+            android:id="@+id/editButton"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center|start"
+            android:text="@string/edit_button" />
+
+        <CheckBox
+            android:id="@+id/selectAllCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:layout_marginStart="110dp"
+            android:text="Select All" />
+
+        <Button
+            android:id="@+id/createButton"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:text="@string/create_button"
+            android:textSize="30sp"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="0dp"
+            android:layout_gravity="center|end" />
+
+        <Button
+            android:id="@+id/deleteGameButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/delete_button"
+            android:visibility="invisible"
+            android:backgroundTint="#FF0000"
+            android:layout_gravity="center|end" />
+
+    </FrameLayout>
+
+    <ListView
+        android:id="@+id/gameListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

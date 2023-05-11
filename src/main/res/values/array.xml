@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="triggerSpinnerClass">
+        <item>on click</item>
+        <item>on enter</item>
+        <item>on drop</item>
+    </string-array>
+
+    <string-array name="actionSpinnerClass">
+        <item>goto</item>
+        <item>play</item>
+        <item>hide</item>
+        <item>show</item>
+    </string-array>
+
+    <string-array name="fontSizeSpinnerClass">
+        <item>size</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>22</item>
+        <item>24</item>
+        <item>26</item>
+        <item>28</item>
+        <item>32</item>
+        <item>36</item>
+        <item>40</item>
+        <item>48</item>
+    </string-array>
+
+    <string-array name="colorSpinnerClass">
+        <item>Black</item>
+        <item>Red</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Indigo</item>
+        <item>Violet</item>
+    </string-array>
+
+    <string-array name="thicknessSpinnerClass">
+        <item>xThin</item>
+        <item>Thin</item>
+        <item>Medium</item>
+        <item>Thick</item>
+        <item>xThick</item>
+    </string-array>
+
+</resources>

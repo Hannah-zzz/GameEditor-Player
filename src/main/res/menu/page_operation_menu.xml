@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/copyPageMenuItem" android:title="@string/copy_menu_item" />
+    <item android:id="@+id/cutPageMenuItem" android:title="@string/cut_menu_item" />
+    <item android:id="@+id/pastePageMenuItem" android:title="@string/paste_menu_item" />
+<!--    <item android:id="@+id/undoMenuItem" android:title="@string/undo_menu_item" />-->
+
+</menu>

@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">BW Editor</string>
+    <string name="edit_button">Edit</string>
+    <string name="create_button">+</string>
+    <string name="play_button">Play!</string>
+    <string name="delete_button">Delete</string>
+    <string name="rename_button">Rename</string>
+    <string name="cancel_button">Cancel</string>
+
+    <string name="manage_games">Manage Games</string>
+    <string name="manage_pages">Manage Pages</string>
+
+    <string name="cancel_dialog_button">Cancel</string>
+    <string name="confirm_dialog_button">Confirm</string>
+
+    <string name="game_start_successful_toast">Game starts successfully.</string>
+    <string name="game_invalid_toast">Game internal invalid, please modify game.</string>
+    <string name="internal_correct_text">Internal Correct</string>
+    <string name="internal_error_text">Internal Error</string>
+
+    <string name="save_button">Save</string>
+
+    <string name="select_radio">Select</string>
+    <string name="add_radio">Add</string>
+    <string name="delete_radio">Delete</string>
+
+    <string name="X_text">X:</string>
+    <string name="Y_text">Y:</string>
+    <string name="Width_text">Width:</string>
+    <string name="Height_text">Height:</string>
+
+    <string name="input_name_text">Name:</string>
+    <string name="input_name_hint_text">Input shape name here</string>
+
+    <string name="movable_checkBox">Movable</string>
+    <string name="visible_checkBox">Visible</string>
+
+    <string name="image_name_text">Image:</string>
+    <string name="browse_image_button">Browse</string>
+    <string name="external_image_read_toast">External image read successfully.</string>
+    <string name="draw_custom_image_button">Draw Custom Image</string>
+
+    <string name="text_text">Text:</string>
+    <string name="input_text">Input text here</string>
+
+    <string name="script_text">Script:</string>
+    <string name="go_to_script_assembler_button">Go To Script Assembler</string>
+
+    <string name="script_assembler_text">Script Assembler</string>
+    <string name="script_trigger_text">Trigger:</string>
+    <string name="script_action_text">Action:</string>
+
+    <string name="add_script_button">Add Script</string>
+    <string name="clear_all_button">Clear All</string>
+
+    <string name="delete_all_scripts_dialog">Are you sure you want to delete all scripts?</string>
+    <string name="external_sound_read_successful_toast">External sound read successfully.</string>
+
+    <string name="copy_menu_item">Copy</string>
+    <string name="cut_menu_item">Cut</string>
+    <string name="paste_menu_item">Paste</string>
+    <string name="undo_menu_item">Undo</string>
+
+    <string name="game_name_duplicate_toast">Game name exists, please retry.</string>
+    <string name="game_name_invalid_toast">Game name is invalid, please retry.</string>
+    <string name="game_name_change_toast">Game name changed.</string>
+
+    <string name="page_name_fail_toast">Page name is invalid, please retry.</string>
+    <string name="page_name_change_toast">Page name changed.</string>
+
+    <string name="shape_name_invalid_toast">Shape name exists or invalid.</string>
+    <string name="shape_save_successful_toast">Shape saved successfully.</string>
+
+    <string name="script_invalid_toast">Script is invalid.</string>
+
+    <string name="undo_toast">Previous operation revoked.</string>
+    
+    <string name="brush_button">Brush</string>
+    <string name="rubber_button">Rubber</string>
+    <string name="color_text">Color:</string>
+    <string name="thickness_text">Thickness:</string>
+    <string name="image_file_name_text">Image name:</string>
+
+    <string name="image_file_name_empty_toast">File name cannot be empty.</string>
+    <string name="image_file_name_exists_toast">File name exists, please retry.</string>
+    <string name="image_file_save_successful_toast">Image saved successfully.</string>
+</resources>
